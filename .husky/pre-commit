@@ -27,10 +27,10 @@ tput setaf 1; echo "[2/4] Jest check unit tests FAILED. \nPlease check carefully
 false;
 )
 
-npm run test:intergration || (
-tput setaf 1; echo "[2/4] Jest check intergration tests FAILED. \nPlease check carefully your test file or remove it before committing.";
-false;
-)
+# npm run test:intergration || (
+# tput setaf 1; echo "[2/4] Jest check intergration tests FAILED. \nPlease check carefully your test file or remove it before committing.";
+# false;
+# )
 
 echo "[3/4] Jest check passed. ✨";
 
