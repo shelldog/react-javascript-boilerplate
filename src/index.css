@@ -63,7 +63,38 @@ select {
 }
 
 body {
+  align-items: center;
   background-color: var(--clr-bg-std);
   color: var(--clr-txt-std);
   font-family: var(--ff-std);
+  display: flex;
+  justify-content: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.app {
+  border: 2px solid white;
+  box-shadow: 10px 10px #ffffff;
+  display: flex;
+  padding: 1rem 2rem 1rem 1rem;
+}
+
+.content {
+  margin-top: 2rem;
+}
+
+.label {
+  font-weight: 500;
+  margin-right: 1rem;
+}
+
+.article {
+  max-width: 12rem;
+}
+
+.margin-bottom {
+  margin-bottom: 1rem;
 }
