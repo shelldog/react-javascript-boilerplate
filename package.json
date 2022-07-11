@@ -24,7 +24,7 @@
     "@babel/core": "^7.16.10",
     "@babel/preset-env": "^7.16.10",
     "@babel/preset-react": "^7.16.7",
-    "@testing-library/dom": "^8.13.0",
+    "@testing-library/dom": "^8.16.0",
     "@testing-library/react": "^12.1.2",
     "babel-loader": "^8.2.3",
     "cross-env": "^7.0.3",
